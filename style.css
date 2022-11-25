@@ -16,8 +16,10 @@
 
 .main {
     max-height: 600px;
+    height: 90%;
     display: block;
-    margin-left: auto;
+    float: right;
+    margin-right: -10px;
     margin-bottom: -10px;
 }
 
@@ -84,4 +86,13 @@
   
   .btn:hover {
     box-shadow: 1px 1px 30px -6px var(--redii);
+  }
+
+  @media (max-width: 720px) {
+    .main {
+      width: 90%;
+      float: right;
+      margin-right: -3%;
+      margin-bottom: -3%;
+    }
   }
